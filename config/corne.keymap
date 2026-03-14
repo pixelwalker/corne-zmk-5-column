@@ -23,6 +23,7 @@
             flavor = "tap-preferred";
             hold-trigger-on-release;
             hold-while-undecided;
+            quick-tap-ms = <220>;
         };
 
         hmr: homewrow_mods_right {
@@ -35,6 +36,7 @@
             flavor = "tap-preferred";
             hold-while-undecided;
             hold-trigger-on-release;
+            quick-tap-ms = <220>;
         };
     };
 
