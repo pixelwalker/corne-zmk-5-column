@@ -50,7 +50,7 @@
 
             bindings = <
 &none  &kp Q        &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y        &kp APOS          &none
-&none  &hml LGUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RALT I  &hmr O RIGHT_GUI  &none
+&none  &hml LGUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RALT I  &hmr RIGHT_GUI O  &none
 &none  &kp Z        &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &kp COMMA     &kp DOT      &kp SLASH         &none
                                      &lt 3 ESC     &lt 1 TAB          &lt 2 SPACE    &lt 5 ENTER  &lt 4 BACKSPACE     &lt 6 DELETE
             >;
