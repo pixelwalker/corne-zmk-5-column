@@ -29,10 +29,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <185>;
+            tapping-term-ms = <230>;
             flavor = "tap-preferred";
-            hold-trigger-on-release;
-            quick-tap-ms = <185>;
+            quick-tap-ms = <230>;
+            require-prior-idle-ms = <125>;
         };
     };
 
