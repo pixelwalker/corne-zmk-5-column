@@ -36,7 +36,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        layout_switch {
+            bindings = <&tog 7>;
+            key-positions = <36 37 40 41>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -49,9 +56,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q        &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y        &kp APOS          &none
-&none  &hml LGUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RALT I  &hmr RIGHT_GUI O  &none
-&none  &kp Z        &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &kp COMMA     &kp DOT      &kp SLASH         &none
+&none  &kp Q        &kp W            &kp E         &kp R              &kp T          &kp Y        &kp U               &kp I         &kp O        &kp P                     &none
+&none  &hml LGUI A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G          &kp H        &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RALT L  &hmr RIGHT_GUI SEMICOLON  &none
+&none  &kp Z        &kp X            &kp C         &kp V              &kp B          &kp N        &kp M               &kp COMMA     &kp DOT      &kp SLASH                 &none
                                      &lt 3 ESC     &lt 1 TAB          &lt 2 SPACE    &lt 5 ENTER  &lt 4 BACKSPACE     &lt 6 DELETE
             >;
 
@@ -134,6 +141,16 @@
             >;
 
             label = "Fun";
+        };
+
+        colemak_layer {
+            label = "Cole";
+            bindings = <
+&none  &kp Q        &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y        &kp APOS          &none
+&none  &hml LGUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RALT I  &hmr RIGHT_GUI O  &none
+&none  &kp Z        &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &kp COMMA     &kp DOT      &kp SLASH         &none
+                                     &lt 3 ESC     &lt 1 TAB          &lt 2 SPACE    &lt 5 ENTER  &lt 4 BACKSPACE     &lt 6 DELETE
+            >;
         };
     };
 };
