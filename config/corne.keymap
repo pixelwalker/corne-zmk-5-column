@@ -48,6 +48,11 @@
             bindings = <&kp DEL>;
             key-positions = <9 10>;
         };
+
+        caps {
+            bindings = <&caps_word>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
